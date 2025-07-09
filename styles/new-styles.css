@@ -231,3 +231,58 @@
 .img-96{
   max-width: 140px;
 }
+
+/* banner-6 styles */
+.banner-6{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid tomato;                                                                                                                                                                                                                                                                         
+  margin: 120px 140px;
+  justify-content: space-between;
+}
+.banner-6-des{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.func{
+  font-size: 24px;
+  font-weight: 500;
+  color: #070211;
+  margin-bottom: 16px;
+}
+.hlday{
+ font-weight: 900;
+ font-size: 72px; 
+ margin-bottom: 28px;
+ margin-top: 0px;
+ max-width: 677px;
+}
+.sale{
+  color: #070211;
+}
+.hdays{
+  color: #FF0000;
+}
+.sim-desc{
+  margin-top: 0px;
+  font-size: 20px;
+  font-weight: 400;
+  max-width: 1068px;
+  height: 96px;
+  text-align: center;
+  line-height: 32px;
+  letter-spacing: 0%;
+}
+.banner-6-img{
+  display: flex;
+  flex-direction: column;
+}
+.imag{
+  display: flex;
+  justify-content: space-between;
+}
+.rec-2{
+  max-width: 1320px;
+}
