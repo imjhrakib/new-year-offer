@@ -1,0 +1,81 @@
+/* banner-1 styles */
+.banner {
+  background-image: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url("../images/Banner-Image.png");
+  max-width: 1320px;
+  height: 600px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+}
+
+.banner-container {
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.banner-cotent-sub-title {
+  color: white;
+  font-weight: 400;
+  font-size: 32px;
+}
+.banner-content-title {
+  color: white;
+  font-weight: 900;
+  font-size: 55px;
+  max-width: 632px;
+  margin-top: -30px;
+}
+
+
+/* font class */
+.merriweather-normal {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* banner-2 styles */
+.banner-2 {
+  text-align: center;
+  max-width: 809;
+  height: 806px;
+  margin: 50px 398px;
+}
+
+.off {
+  color: #FF0000;
+  font-weight: bold;
+  font-size: 88px;
+}
+
+.holiday {
+  color: #FF0000;
+  font-weight: medium;
+  font-size: 24px;
+}
+
+.categories {
+  color: #070211;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.new-year-img {
+  max-width: 802px;
+  height: 500px;
+}
