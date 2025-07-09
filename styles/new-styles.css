@@ -147,7 +147,7 @@
 .place,.date,.time{
   color: red;
 }
-.join-now{
+.join{
   background-color: #FF0000;
   font-weight: bold;
   font-size: 20px;
@@ -157,3 +157,77 @@
   color: white;
 }
 
+/* banner-5 styles */
+.banner-5 {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1320px;
+  height: 463px;
+  margin: 120px auto;
+}
+
+.des{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.offer{
+  margin-top: 100px;
+  color: #FF0000;
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+.track{
+  margin-top: 5px;
+  margin-bottom: 0px;
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+}
+.first-description,.second-description {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0;
+  color: #07021199;
+}
+.first-description{
+  margin-top: 5px;
+  margin-bottom: 0px;
+  max-width: 393px;
+}
+
+.pic{
+  width: 410px;
+  height: 410px;
+  border: 15px solid #FF0000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-ellipse {
+  object-fit: cover;
+}
+
+.year{
+  display: flex;
+  flex-direction: column;
+}
+.year24{
+  margin-top: 70px;
+  margin-bottom: 0px;
+  color: #FF0000;
+  font-weight: bold;
+  font-size: 48px;
+}
+.second-description{
+  margin-top: 4px;
+  margin-bottom: 10px;
+  max-width: 276px;
+}
+.img-96{
+  max-width: 140px;
+}
