@@ -31,7 +31,6 @@
   margin-top: -30px;
 }
 
-
 /* font class */
 .merriweather-normal {
   font-family: "Merriweather", serif;
@@ -51,6 +50,10 @@
 
 /* banner-2 styles */
 .banner-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   max-width: 809;
   height: 806px;
@@ -61,21 +64,68 @@
   color: #FF0000;
   font-weight: bold;
   font-size: 88px;
+  margin-bottom: -5px;
 }
 
 .holiday {
   color: #FF0000;
   font-weight: medium;
   font-size: 24px;
+  margin-bottom: -5px;
 }
 
 .categories {
   color: #070211;
   font-weight: bold;
   font-size: 48px;
+  margin-top: 5px;
 }
 
 .new-year-img {
   max-width: 802px;
   height: 500px;
+}
+
+/* banner-3 styles */
+.banner-3{
+  background-image: linear-gradient(to right, rgb(7, 2, 17), rgba(7, 2, 17, 0)), url("../images/Vectorrr.png");
+  border-radius: 16px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  margin: 120px 140px;
+  color: white;
+  height: 600px;
+}
+.banner-3-description {
+  display: flex;
+  flex-direction: column;
+  margin-left: 126px;
+  margin-top: 126px;
+}
+
+.logo-title{
+  font-weight: 900;
+  font-size: 64px;
+  max-width: 642px;
+  line-height: 88px;
+  margin-bottom: 0px;
+}
+.logo-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  max-width: 697px;
+  margin-top: -2px;
+}
+.join-now {
+  margin-left: 32px;
+  margin-top: 16px;
+}
+.img-70{
+  margin-top: 68px;
+  margin-right: 150px;
+  max-width: 319px;
+  height: 464px;
 }
