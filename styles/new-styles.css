@@ -235,8 +235,7 @@
 /* banner-6 styles */
 .banner-6{
   display: flex;
-  flex-direction: column;
-  border: 2px solid tomato;                                                                                                                                                                                                                                                                         
+  flex-direction: column;                                                                                                                                                                                                                                                                     
   margin: 120px 140px;
   justify-content: space-between;
 }
@@ -279,10 +278,54 @@
   display: flex;
   flex-direction: column;
 }
+.img-75{
+  position: relative;
+  width: 674px;
+  height: 577px;
+  z-index: 3;
+}
+.img-44{
+  width: 309px;
+  height: 309px;
+}
 .imag{
   display: flex;
   justify-content: space-between;
 }
 .rec-2{
-  max-width: 1320px;
+  width: 1051px;
+  position: relative;
+  top: -180px;
+}
+/* gifts contents styles */
+.gifts{
+  margin: 120px 120px;
+}
+.gifts-title{
+  color: #FF0000;
+  font-size: 24px;
+  font-weight: 400px;
+  margin-bottom: 20px;
+}
+.gifts-heading{
+  font-size: 48px;
+  font-weight: 900px;
+  margin-bottom: 20px;
+}
+.gifts-description{
+  color: #07021199;
+  font-size:20px;
+  font-weight: 400px;
+  margin-bottom: 20px;
+}
+.gifts-pic{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.gifts-pic img{
+  
+  width: 30%;
+  height: auto;
 }
